@@ -29,6 +29,6 @@ npm run serve
 
 页面图示：
 
-![1669106423298](C:\Users\邱钢\AppData\Roaming\Typora\typora-user-images\1669106423298.png)
+![](https://github.com/keleein/mailsender/blob/master/src/assets/images/1669106423298.png)
 
-![1669106437980](C:\Users\邱钢\AppData\Roaming\Typora\typora-user-images\1669106437980.png)
+![](https://github.com/keleein/mailsender/blob/master/src/assets/images/1669106437980.png)
