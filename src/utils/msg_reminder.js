@@ -5,6 +5,23 @@ export default {
     msg_smsBao,
     msg_store,
     msg_recover,
+    msg_mail,
+}
+
+function msg_mail(stand){
+    if(stand.failed === true){
+        Vue.prototype.$message({
+            message: '发送成功',
+            type: 'success',
+            center:true,
+        })
+    }else if(stand.success === false){
+        Vue.prototype.$message({
+            message: '发送失败',
+            type: 'error',
+            center:true,
+        })
+    }
 }
 
 function msg_smsBao(stand){

@@ -51,9 +51,9 @@ export default {
     //邮件发送函数
     async send(){
         send.QQMailSender(this.sendMailer, this.authorizationCode, Objects.currentSelect, this.subject, this.ContentPath).then(res=>{
-          msg_reminder.msg_reminder(res)
+          msg_reminder.msg_mail(res)
         },rej=>{
-          msg_reminder.msg_reminder(rej)
+          msg_reminder.msg_mail(rej)
         })
     },
     //创建electron-store对象
